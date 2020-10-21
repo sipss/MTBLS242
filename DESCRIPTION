@@ -1,2 +1,20 @@
-NMR dataset from Gralka et al., 2015. DOI: 10.3945/ajcn.115.110536.
-\url{https://doi.org/10.3945/ajcn.115.110536}
+Package: MTBLS242 
+Title: NMR dataset from Gralka et al., 2015. DOI: 10.3945/ajcn.115.110536.
+Description: NMR spectra for all samples were acquired with the use of a 
+    Bruker spectrometer (Bruker Biospin srl) operating at 14.1 T 
+    (600.13-MHz proton Larmor frequency) equipped with a triple resonance
+    inverse cryo probe cryoprobe, an automatic tuning-matching unit, and 
+    an automatic sample changer.
+    [MTBLS242](https://doi.org/10.3945/ajcn.115.110536).
+    MTBLS242 data have been parsed into a SummarizedExperiment object available
+    in ExperimentHub.
+Version: 1.0.0
+Author: Héctor Gracia
+Maintainer: Bioconductor Package Maintainer <maintainer@bioconductor.org>
+URL: http://bioconductor.org/packages/release/bioc/html/MTBLS242.html
+biocViews: ExperimentData, Metabolomics, Homo_sapiens_Data
+Depends: Biobase, AkpsNMR
+Suggests: ExperimentHub (>= 1.15.3), knitr, BiocStyle
+License: Artistic-2.0
+VignetteBuilder: knitr
+NeedsCompilation: no
